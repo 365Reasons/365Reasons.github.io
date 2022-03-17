@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 /*
-
 	COLORS
 		heart 		-> #D90429;
 		heart 		-> #EF233C;
@@ -10,10 +9,8 @@
 		about		-> #2B2D42;
 
 	FONTS
-		
 		font-family: 'Fredoka', sans-serif;
 		font-family: 'Quicksand', sans-serif;
-
 */
 
 *{
@@ -28,6 +25,13 @@ body{
 	background-color: #EDF2F4;
 }
 
+.background{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 0;
+}
+
 .content{
 	width: 100vw;
 	height: 100vh;
@@ -36,6 +40,7 @@ body{
 
 #reason{
 	position: absolute;
+	z-index: 1;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
