@@ -79,12 +79,12 @@ var listaMotivos = new Array (
 
 const dayOfYear = date => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
 
-document.getElementById("reason").innerHTML = listaMotivos[dayOfYear(new Date())-1];
+// document.getElementById("reason").innerHTML = listaMotivos[dayOfYear(new Date())-1];
+document.getElementById("reason").innerHTML = listaMotivos[Math.floor(Math.random() * listaMotivos.length];
 
 
 // Layouts para as frases
-function background1() {}
-function background2() {}
-function background3() {}
-function background4() {}
-
+// function background1() {}
+// function background2() {}
+// function background3() {}
+// function background4() {}
